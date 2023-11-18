@@ -1,0 +1,320 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color-scheme: dark;
+	font-family: 'Poppins';
+}
+
+body {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 69.76px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+li {
+	list-style: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.btn {
+	border: none;
+	background: #f4511f;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 9px 24px;
+	border-radius: 24px;
+	cursor: pointer;
+}
+
+/* NAV MENU */
+
+header {
+	height: 80px;
+	max-width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+header .logo {
+	display: flex;
+	align-items: center;
+	column-gap: 9px;
+}
+
+header .logo span {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	column-gap: 48px;
+}
+
+header nav ul {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+
+/* SECTION 1 */
+
+.slider {
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 78px;
+}
+
+.slider .description span {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.slider .description p {
+	color: #dad8d7;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 34px;
+}
+
+.slider .description > .btn {
+	margin-top: 40px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 17px 28px;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.slider .image p span {
+	text-align: right;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.slider .image p {
+	color: #dad8d7;
+	text-align: right;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.slide {
+	margin-top: 85px;
+	display: flex;
+	justify-content: center;
+}
+
+/* SECTION PAGE 2 */
+
+.page2 {
+	display: inline-block;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.page2 h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.page2 .services {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	gap: 90px;
+	margin-top: 65px;
+}
+
+.card h3 {
+	margin-top: 20px;
+	font-size: 19px;
+	font-weight: 400;
+}
+.card > p {
+	margin-top: 4px;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+/* SECTION PAGE 3 */
+
+.page3 {
+	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 153px;
+}
+
+.page3 .about > h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+.page3 .about > p {
+	margin-top: 48px;
+	color: #dad8d7;
+	font-size: 16px;
+	font-weight: 300;
+}
+.page3 .about > .btn {
+	margin-top: 35px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 17px 28px;
+}
+
+/* SECTION MENU-PAGE */
+
+.menu-page {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin-top: 168px;
+}
+
+.menu-page > h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.menu-page .menu {
+	margin-top: 63px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-card {
+	width: 248px;
+	height: 240px;
+}
+
+.menu-card .card-img {
+	margin-bottom: 20px;
+}
+
+.info > h4 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: -5px;
+}
+.info div span {
+	color: #dad8d7;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.info-btn {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: right;
+	margin-top: -22px;
+}
+.info-btn .add-to-cart {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 60px 8px;
+}
+
+/* SECTION DISCOUNT-PAGE */
+
+.discount-page {
+	margin-top: 168px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 116px;
+}
+
+.discount-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.discount-text > h2 {
+	font-size: 24px;
+	font-weight: 300;
+}
+.discount-text > p {
+	font-size: 24px;
+	font-weight: 300;
+}
+.discount-text > .btn {
+	margin-top: 40px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 17px 28px;
+}
+
+/* SECTION NEW ARRIVALS */
+
+.new-cart {
+	display: flex;
+	margin-left: -30px;
+}
+
+.new-page {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin-top: 120px;
+}
+
+.new-page > h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.new-page .menu {
+	margin-top: 90px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.new-page .menu .menu-card .info div p > .new-price {
+	color: #f4511f;
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: 8px;
+}
+
+.new-page .menu .menu-card .info div .info-btn {
+	margin-right: -30px;
+}
